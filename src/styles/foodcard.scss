@@ -1,0 +1,42 @@
+.food-card {
+	width: 327px;
+	height: 81px;
+	background: #ffffff;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	margin: 24px 0;
+	padding: 5px 10px;
+	box-sizing: border-box;
+	display: grid;
+	align-items: center;
+	column-gap: 20px;
+	grid-template-columns: 0.3fr 1fr 1.3fr;
+	.text {
+		h4 {
+			font-size: 14px;
+			margin: 5px 0;
+		}
+		p {
+			font-size: 9px;
+		}
+	}
+	.right {
+		align-self: stretch;
+		display: grid;
+		justify-content: right;
+		.img {
+			justify-self: right;
+		}
+		.price {
+			justify-self: right;
+		}
+		.time {
+			justify-self: right;
+			font-size: 8.5px;
+			.status {
+				color: #b08209;
+				margin-right: 3px;
+			}
+		}
+	}
+}

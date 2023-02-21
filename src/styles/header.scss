@@ -1,0 +1,11 @@
+.header {
+	margin: 15px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	.right {
+		display: flex;
+		column-gap: 20px;
+		align-items: center;
+	}
+}

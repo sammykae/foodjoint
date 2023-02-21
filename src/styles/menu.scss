@@ -1,0 +1,10 @@
+.menu {
+	max-height: 450px;
+	overflow: hidden;
+	overflow-y: auto;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+	&::-webkit-scrollbar {
+		display: none;
+	}
+}
